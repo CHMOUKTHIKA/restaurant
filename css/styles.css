@@ -109,7 +109,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #starter-tile, #beverges-tile {
+#starter-tile, #menu-tile, #desserts-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -117,22 +117,22 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #starter-tile:hover, #beverges-tile:hover {
+#starter-tile:hover, #menu-tile:hover, #desserts-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
-}
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
 }
 #starter-tile {
   background: url('../images/starter-tile.jpg') no-repeat;
   background-position: center;
 }
-#beverges-tile {
-  background: url('../images/beverges-tile.jpg') no-repeat;
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #starter-tile span, #beverges-tile span {
+#desserts-tile {
+  background: url('../images/desserts-tile.jpg') no-repeat;
+  background-position: center;
+}
+#starter-tile span, #menu-tile span, #desserts-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -147,12 +147,31 @@ body {
 /* END HOME PAGE */
 
 /*ABOUT PAGE*/
-#about
+.about-us
 {
-  background-color: #f6b319;
+  background-color:#ffff4d  ;
   font-family: 'Lora', serif;
-  color:black;
+  color: #4b0082  ;
+  font-size: 1.5em;
   font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+  border-radius: 1.5em;
+}
+.about-us h2
+{
+  color: #000;
+  text-decoration: underline;
+  font-size: 2.0em;
+}
+.about-us span
+{
+  color:#0066ff  ;
 }
 /*ABOUT PAGE*/
 
@@ -229,6 +248,11 @@ h3.menu-item-title {
     background: url('../images/Restaurant_.jpg') no-repeat;
     height: 432px;
   }
+  #desserts-tile
+  {
+    /* background-color: #8b4513    ; */
+    background: url('../images/desserts-tile1.jpg') no-repeat;
+  }
   /* End Home Page */
 }
 
@@ -294,7 +318,8 @@ h3.menu-item-title {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile {
+  #menu-tile, #starter-tile, #desserts-tile
+ {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -321,7 +346,8 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #starter-tile, #desserts-tile 
+  {
     width: 280px;
     margin: 0 auto 15px;
   }
